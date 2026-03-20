@@ -1,8 +1,6 @@
 name: Wallapop Seiko 5 Tracker
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'     # cada 30 minutos (ajusta: cada hora → 0 * * * *)
   workflow_dispatch:           # permite ejecutarlo manualmente desde GitHub
 
 jobs:
